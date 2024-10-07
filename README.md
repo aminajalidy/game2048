@@ -37,9 +37,9 @@ Le code source du projet est organisé de manière logique dans le dossier `lib`
 - **game_engine.dart** : Contient la logique principale du jeu.
 
 ### 5. **interface**
-- **defeat_screen.dart** : Affiche l’écran de défaite.
-- **game_screen.dart** : L’écran principal du jeu.
-- **victory_screen.dart** : Affiche l’écran de victoire.
+- **defeatscreen.dart** : Affiche l’écran de défaite.
+- **gamescreen.dart** : L’écran principal du jeu.
+- **victoryscreen.dart** : Affiche l’écran de victoire.
 
 ### 6. **main.dart**
 - Le point d’entrée de l’application.
