@@ -1,16 +1,61 @@
-# game2048
+# 🎮 Jeu 2️⃣0️⃣4️⃣8️⃣
 
-A new Flutter project.
+# 🚀 Introduction
 
-## Getting Started
+Bienvenue dans le projet **2048** ! Ce jeu captivant met vos compétences à l'épreuve pour fusionner des tuiles et atteindre la fameuse tuile 2048. Ce projet est développé en utilisant **Flutter** pour une expérience utilisateur fluide.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+# 🔍 Description du Projet
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+2048 est un jeu vidéo de type puzzle, le but du jeu est de faire glisser des tuiles sur une grille, pour combiner les tuiles de mêmes valeurs et créer ainsi une tuile portant le nombre 2048. Le joueur peut toutefois continuer à jouer après cet objectif atteint pour faire le meilleur score possible.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+# ⚙️ Structure du Projet
+
+Le code source du projet est organisé de manière logique dans le dossier `lib`, comme suit :
+
+
+### 1. **base**
+- Contient les classes principales qui forment le cœur du jeu.
+
+### 2. **directions**
+- **axis_movement.dart** : Gère les mouvements des tuiles selon les axes.
+- **gesture_directions.dart** : Gère les gestes tactiles pour déplacer les tuiles.
+
+### 3. **elements**
+- **action_button.widget.dart** : Gère le bouton d’action, comme “RESTART”.
+- **game_grid.widget.dart** : Représente la grille de jeu.
+- **game_over.widget.dart** : Affiche l’écran de fin de jeu.
+- **gesture_swipe_detector.widget.dart** : Gère les gestes de glissement.
+- **score_container.widget.dart** : Affiche le score actuel.
+- **score_display.widget.dart** : Affiche les scores de manière attractive.
+- **styled_text.widget.dart** : Gère le style du texte affiché.
+
+### 4. **engine**
+- **game_engine.dart** : Contient la logique principale du jeu.
+
+### 5. **interface**
+- **defeat_screen.dart** : Affiche l’écran de défaite.
+- **game_screen.dart** : L’écran principal du jeu.
+- **victory_screen.dart** : Affiche l’écran de victoire.
+
+### 6. **main.dart**
+- Le point d’entrée de l’application.
+
+---
+
+# 🛠️ Cloner le Projet
+
+**Pré-requis** : Assurez-vous d'avoir un émulateur Android ou iOS et le SDK Flutter installé sur votre machine.
+
+1. **Cloner le projet** : 
+   ```bash
+   git clone https://github.com/aminajalidy/game2048.git
+2.  Aller dans le répertoire du projet cd game2048
+
+3.  Installer les dépendances avec `flutter packages get`
+
+4.  Lancer l'application    
+
