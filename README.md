@@ -2,7 +2,7 @@
 
 # 🚀 Introduction
 
-Bienvenue dans le projet **2048** ! Ce jeu captivant met vos compétences à l'épreuve pour fusionner des tuiles et atteindre la fameuse tuile 2048. Ce projet est développé en utilisant **Flutter** pour une expérience utilisateur fluide.
+Bienvenue dans le projet **2048** ! Ce jeu captivant met nos compétences à l'épreuve pour fusionner des tuiles et atteindre la fameuse tuile 2048. Ce projet est développé en utilisant **Flutter** pour une expérience utilisateur fluide.
 
 ---
 
